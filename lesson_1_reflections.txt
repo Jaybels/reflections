@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+This is a helpful technique because it pinpoints the lines that are different without having to compare them manually. A definite speed-saver. I also like that it only shows lines that are different, whereas Matlab's version shows everything and you have to go through it all to see where the marked differences are.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It allows you to see changes that you've done, and that other people have done to the programme. You can see where you've made a mistake adding things. You can also try out new ideas to see if it works, if not they you can you back to a newer version easily.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros: You can control when you want to save a version, so you can save it in a logical spot in reference to your code and what you're doing.
+Cons: You may forget to commit, or you may not commit often enough and the results from comparing versions would be quite large. It's not easy to pick up bugs or what changes result in what difference in your programme (especially to others who may also be collaborating
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git was invented mainly (I'm guessing) for programming and usually you have lots of different files when it comes to programming so it is important to save all the multiple files when you commit to get all the changes for that particular verions. Google Docs, on the other hand, usually just have one long document per project (e.g. a paper or essay) to generally speaking you don't need to save lots of files, just that one. 
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+The git log details all the versions that have been committed, and any notes on the changes made. You can they use git diff to compare a version with previous versions (note the news one is first) and see where the differences are. 
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+It makes me much more confident and experimenting and making changes that could break the code because I have a safety net and can revert back to more stable versions if the changes don't work out.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using Git for keeping track of versions in the submarine simulation that I programme for Psych. I am also keen to use it when making websites as this would be useful as I experiment with different ideas as I learn about web design and programming.
+
+
+
+
+
+
+
+
+
+
+
+
+
