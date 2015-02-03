@@ -13,3 +13,9 @@ The staging area is where you put the files you wish to commit, while the reposi
 How can you use the staging area to make sure you have one commit per logical change?
 
 You could add a file to it and then compare with the latest commit to see the changes, and then commit when you think you have one logical change since you last committed. 
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I am experimenting with the code, but want to keep a working version the it would be good to have a branch. Or maybe there's two possible ways of doing something and I want to try both before deciding what's best. Branching would be helpful here as you are able to experiment with changes without altering the 'master' version.
