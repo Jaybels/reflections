@@ -19,3 +19,9 @@ You could add a file to it and then compare with the latest commit to see the ch
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When I am experimenting with the code, but want to keep a working version the it would be good to have a branch. Or maybe there's two possible ways of doing something and I want to try both before deciding what's best. Branching would be helpful here as you are able to experiment with changes without altering the 'master' version.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+It helps because you can see what branches you have made (or other people) and how they relate to the master branch e.g. at what commit did it branch off, and what changes have been made to the master branch since it branched off. In that way you'll be able to tell what needs merging to what etc.
