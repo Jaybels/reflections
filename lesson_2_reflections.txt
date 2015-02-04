@@ -31,3 +31,8 @@ It helps because you can see what branches you have made (or other people) and h
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together will merge the changes of either branch from the common commit and store this version as a commit. All the commits in both branches are now stored in git log, and it is useful to represent in a diagram so that you can see the common commit and the different changes in each branch. 
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The pros of automatically merging is that you don't have to go through all the changes yourself and make manual changes. This would be time consuming and may make human errors. Automatically merging is faster, but it can't merge everything if there are conflicts as it is a complex process to know what to do. In git the combination of automatic merging first, then manually resolving conflicts is a good compromise between automation and being able to make individual decisions on conflicts. 
