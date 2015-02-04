@@ -25,3 +25,9 @@ When I am experimenting with the code, but want to keep a working version the it
 How do the diagrams help you visualize the branch structure?
 
 It helps because you can see what branches you have made (or other people) and how they relate to the master branch e.g. at what commit did it branch off, and what changes have been made to the master branch since it branched off. In that way you'll be able to tell what needs merging to what etc.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together will merge the changes of either branch from the common commit and store this version as a commit. All the commits in both branches are now stored in git log, and it is useful to represent in a diagram so that you can see the common commit and the different changes in each branch. 
