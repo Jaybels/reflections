@@ -27,3 +27,9 @@ It allows you to see any new changes to the remote file while working offline.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without using GitHub, collaboration would be much harder. Each person would have to e.g. upload a zip file with their current version and someone would need to check the differences. With GitHub it's easier to upload changes from the master branch, putting your changes in another branch, and asking people to check your code before merging it into the main copy. This allows people to test and check your changes, and let know know if they have any suggestions. 
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you are experimenting or writing a novel idea into the code then it's good to have a seperate branch so that everyone can clearly see what changes you have a made and if there are any mistakes. You can then edit your code based on peoples comments and suggestions before merging into the master code. That way you can alway have a working version of the programme. Merging directly into the branch allows for changes to be made much quicker, and perhaps would be useful if just changing a typo or adding comments to the code. Something that won't 'break' or significantly change the code. 
